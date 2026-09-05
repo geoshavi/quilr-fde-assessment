@@ -1,7 +1,8 @@
+# QuilrAI FDE / AI Solutions Engineer Assessment
+
 <img width="1664" height="928" alt="read me" src="https://github.com/user-attachments/assets/32b51151-5d6f-4311-898b-ef67ef72d6bb" />
 
 
-# QuilrAI FDE / AI Solutions Engineer Assessment
 
 ## Overview
 
