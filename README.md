@@ -43,16 +43,20 @@ external services.
 ## Repository structure
 
 ```
-task1_mcp_server/       Task 1 — MCP stdio server, tool input models, mock data
+## Repository structure
+
+```text
+docs/                    Static HTML summary page for reviewers (`index.html`)
+task1_mcp_server/        Task 1 — MCP stdio server, tool input models, mock data
 task2_mcp_gateway/       Task 2 — HTTP/JSON-RPC gateway, auth, mock downstream
 task3_stream_guardrail/  Task 3 — streaming proxy, PII redactor, mock LLM upstream
 task4_model_router/      Task 4 — rate limiter, router, error envelope, mock providers
-tests/                   pytest suite covering all four tasks (1,224 tests)
-docs/                    static HTML summary page for reviewers (index.html)
-README.md
-requirements.txt
-pytest.ini
-.env.example             optional local-run configuration (all values are placeholders)
+tests/                   Pytest suite covering all four tasks (1,224 tests)
+.env.example             Optional local-run configuration (placeholder values only)
+.gitignore               Git exclusions for envs, caches, DB state, and secrets
+pytest.ini               Pytest configuration
+README.md                Project documentation
+requirements.txt         Python dependencies
 ```
 
 ## Setup
