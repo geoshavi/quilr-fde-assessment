@@ -45,6 +45,7 @@ task2_mcp_gateway/       Task 2 — HTTP/JSON-RPC gateway, auth, mock downstream
 task3_stream_guardrail/  Task 3 — streaming proxy, PII redactor, mock LLM upstream
 task4_model_router/      Task 4 — rate limiter, router, error envelope, mock providers
 tests/                   pytest suite covering all four tasks (1,224 tests)
+docs/                    static HTML summary page for reviewers (index.html)
 README.md
 requirements.txt
 pytest.ini
